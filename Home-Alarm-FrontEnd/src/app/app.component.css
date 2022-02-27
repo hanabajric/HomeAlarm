@@ -1,0 +1,35 @@
+.naslov{
+  display: flex;
+
+  justify-content: center;
+  margin-top: 50px;
+
+
+}
+
+.display-1{
+  font-size: xx-large;
+  font-weight: bold;
+  color: white;
+  font-family: Bahnschrift;
+}
+
+.slike{
+  margin-left: 250px;
+  cursor: pointer;
+}
+
+.col-md-4{
+  margin-top: 50px;
+  text-align: center;
+}
+.container{
+  margin-top: 100px;
+}
+.container >div{
+  margin-left: 50px;
+}
+.imena{
+  color: white;
+}
+

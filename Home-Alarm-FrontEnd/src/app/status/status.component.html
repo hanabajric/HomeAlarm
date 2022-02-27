@@ -1,0 +1,18 @@
+<div class="jumbotron">
+  <h2 class="display-4">{{title}}</h2>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <a *ngIf="!upaljeno" class="btn btn-dark" role="button" routerLink="/history">Show history</a>
+  <div *ngIf="upaljeno">
+    <a class="btn btn-danger " role="button" (click)="ugasi()">Turn off alarm</a>
+    <div class="slika">
+      <img src="assets/falseAlarm.jpg">
+    </div>
+  </div>
+</div>
+
+
+
